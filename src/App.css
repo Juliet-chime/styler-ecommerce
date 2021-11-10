@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-to-cart-holder{
+  background: #24435F;
+ position: fixed;
+ width: 100%;
+ z-index: 999;
+}
+.add-to-cart{
+  text-align: end;
+  position: relative;
+  padding: 20px 50px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notification{
+  color: rgb(238, 234, 234);
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.notification:hover{
+ transform: rotate(20deg);
+ transition: linear 3s;
+}
+
+.number{
+  position: absolute;
+  right: 35px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  padding: 15px;
+  color:#333;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #eec6c6; 
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  display: flex;
+  padding: 70px 0px 30px 0px;
+}
+.sidebar{
+flex: 1;
+padding: 20px;
+position:sticky;
+top: 0;
+ height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar h1{
+  font-size: 70px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.sidebar ul{
+  list-style: none;
+  margin: 30% 0px 0px 0px;
+}
+
+.sidebar li{
+  margin: 30px 0px;
+  font-size: 18px;
+}
+
+.content{
+  flex: 8;
+}
+
+.banner{
+  background-image: url("../src/assest/img/banner3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 80vh;
+    color: white;
+    position: relative;
+}
+.bag-shoe{
+  width: 300px;
+  height: 300px;
+  background-image: url("../src/assest/img/bag-clothe.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 3px;
+}
+
+.intro{
+  text-align: center;
+  padding: 40px;
+}
+.intro p{
+  max-width: 500px;
+  margin: auto;
+}
+.styler{
+  font-size: 30px;
+  font-style: italic;
+  line-height: 20px;
+  font-weight: bold;
+}
+.item-holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+.item{
+  border: 0.5px dashed #24435F;
+  padding: 30px;
+  flex-basis: 350px;
+  border-radius: 30px 2px 20% 6px;
+  box-shadow: 5px 1px 10px 0.5px #ddd8d8;
+}
+
+.bag{
+  width: 300px;
+  height: 300px;
+}
+
+.bag img{
+  width: 100%;
+  height: 100%;
+}
+.displaytext{
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+}
+
+.displaytext h6{
+ max-width: 150px;
+}
+
+.displaytext h3,h5,h6{
+  padding: 5px 0px;
+}
+
+.displaytext button{
+  padding: 10px;
+  background:rgb(235, 231, 231);
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.displaytext button:hover{
+  background:none;
+  border: 2px dotted rgb(235, 231, 231);
+  font-size: 12px;
+  transition: ease-in-out 2s;
 }
