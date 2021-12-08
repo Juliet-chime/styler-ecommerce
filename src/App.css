@@ -173,3 +173,7 @@ top: 0;
   font-size: 12px;
   transition: ease-in-out 2s;
 }
+
+@media only screen and (max-width: 1024px){
+  
+}

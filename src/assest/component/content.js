@@ -26,7 +26,7 @@ const Content = () => {
                        </div>
                        <div>
                            <button>Add to cart &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i></button><br/>
-                           <button>Shop Now</button>
+                           <button>Shop Now 2</button>
                        </div>
                    </div>
                </div>
