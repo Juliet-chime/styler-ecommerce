@@ -7,7 +7,6 @@ const Content = () => {
     return (
         <div className="content">
            <div className="banner">
-               {/* <div className="bag-shoe"></div> */}
            </div>
            <div className="intro">
                <p><span className="styler">STYLER CONCEPT</span> is a season-less concept store for fasion , jewellery and accessories. STYLER is focused on promoting slow and sustainable style, hosting a number of new independent designers from across the world who offer made -to-order or small catch production pieces.</p>
