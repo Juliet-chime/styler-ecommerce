@@ -13,7 +13,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 10px 8%;
+  padding: 0 8%;
 }
 .add-to-cart {
   text-align: end;
@@ -51,12 +51,11 @@ body {
 .container {
   display: flex;
   padding: 70px 0px 30px 0px;
-  width: 80%;
   margin: 0 auto;
 }
 .sidebar {
   flex: 1;
-  padding: 20px;
+  padding: 30px;
   position: sticky;
   top: 0;
   height: 100vh;

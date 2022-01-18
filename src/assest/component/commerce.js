@@ -40,7 +40,7 @@ const Commerce = () => {
         </div>
       </div>
       <div className="container">
-        <Navbar />
+        <Navbar/>
         <Content />
       </div>
     </div>

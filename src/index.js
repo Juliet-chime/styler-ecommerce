@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {ProductProvider} from '../src/assest/component/context'
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
-  <ProductProvider>
-     <React.StrictMode>
+  <Router>
+    <ProductProvider>
     <App />
-  </React.StrictMode>
-  </ProductProvider>,
+  </ProductProvider>
+  </Router>,
+  
   document.getElementById('root')
 );
