@@ -170,3 +170,14 @@
       }
     ]
   
+
+    export  const productsDetail = [
+          {
+        "_id": "1",
+        "image":  require("../img/top1.png").default,
+        "title": "Stylish female top",
+        "description": "This is for all the latest trends, our universal brand is here for you, comes in all our fit ranges Created by us, styled by you.",
+        "availableSizes": ["X", "L"],
+        "price": "$129.9"
+      }
+    ]
